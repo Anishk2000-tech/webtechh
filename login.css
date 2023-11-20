@@ -1,0 +1,65 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: orange;
+}
+.fbook,a{
+    display: block;
+}
+#cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form{
+    background-color: rgb(171, 46, 46);
+    width: 25%;
+    border-radius: 5px;
+    padding: 20px;
+}
+form h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+form label{
+    color: white;
+    font-size: 20px;
+}
+form .fbook2{
+    width: 100%;
+    height: 20px;
+    border: none;
+    border-radius: 5px;
+}
+form #btn{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    width: 30%;
+    height: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+}
+#cancel{
+    background-color: rebeccapurple;
+}
+form a{
+    text-decoration: none;
+    color: white;
+}
+.fa-user{
+    position: absolute;
+    top: 46%;
+    left: 38%;
+}
+#user
+{
+
+}
